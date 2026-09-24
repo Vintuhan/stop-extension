@@ -1,0 +1,52 @@
+# Ключевые слова. Любой адрес, в имени которого есть такое слово, блокируется
+# (например 1xbet-zerkalo-2026.com). По одному слову на строку, строки с # игнорируются.
+# Осторожно: добавляйте только уникальные слова. Обычное слово заденет обычные сайты.
+# Если слово блокирует лишнее, удалите его отсюда или добавьте сайт в allowlist.txt.
+
+# Общие слова (ловят десятки тысяч зеркал, но могут задеть редкие обычные сайты)
+casino
+pokies
+sportsbook
+betting
+
+# Букмекеры и казино
+1xbet
+melbet
+mostbet
+1win
+parimatch
+fonbet
+marathonbet
+leonbets
+bet365
+betway
+gamdom
+pokerdom
+azino777
+joycasino
+vulkanvegas
+vulkan-vegas
+jojobet
+vavada
+madridbet
+matbet
+pokerklas
+imajbet
+riobet
+
+# Кейс-сайты, рулетки и сайты со скинами
+csgoempire
+csgoroll
+hellcase
+case-battle
+casebattle
+key-drop
+keydrop
+csgobig
+csgofast
+csgo500
+datdrop
+rustclash
+bloxflip
+skinclub
+farmskins

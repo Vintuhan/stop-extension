@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Стоп: блокировщик казино и ставок",
+  "version": "0.2.0",
+  "description": "Заменяет сайты казино, букмекеров и кейс-сайтов страницей «Стоп». Защита от импульсивных решений.",
+  "icons": {
+    "16": "icons/16.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+  "permissions": [
+    "declarativeNetRequest",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "blocked.html",
+        "blocked.css",
+        "blocked.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
